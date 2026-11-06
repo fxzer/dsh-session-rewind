@@ -8,6 +8,14 @@
 
 ## [Unreleased]
 
+## [1.6.2] - 2026-11-07
+
+### Fixed
+- 修复 MutationObserver 导致按钮反复重绘导致的点击事件丢失（`click drop`）Bug
+- 增加 SVG/path `pointer-events: none` 穿透保护
+- 调整按钮尺寸至原生 28x28px 对齐复制按钮，大幅扩大点击热区
+- 换装对齐 DeepSeek 规范的 16x16 居中回退图标，重心彻底均衡，杜绝视觉割裂
+
 ## [1.6.1] - 2026-11-05
 
 **修复：铅笔点击无反应/等待很久，以及 `(session-rewind)` 出现在聊天里。**

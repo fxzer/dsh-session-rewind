@@ -1,6 +1,6 @@
 {
   "name": "dsh-session-rewind",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "type": "module",
   "description": "Rewind a finished Turn: branch the conversation at any Turn (session header or per-Turn control) and restore every workspace file that Turn changed. · 回合回退：从任意已完成的回合重新开始，并把该回合改动过的工作区文件恢复原状。",
   "icon": "./icon.svg",
